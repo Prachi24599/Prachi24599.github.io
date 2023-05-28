@@ -47,11 +47,11 @@ skillsHeader.forEach((el) => {
 
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll("[data-target]");
-const tabContents = document.querySelectorAll("[tab-content]");
+const tabContents = document.querySelectorAll("[data-content]");
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     const target = document.querySelector(tab.dataset.target);
-    console.log(target);
+    // console.log(target);
 
     tabContents.forEach((tabContent) => {
       tabContent.classList.remove("qualification__active");
