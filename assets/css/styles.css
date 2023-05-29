@@ -497,10 +497,10 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 .portfolio__button:hover .button__icon {
-  transform: translate(0.25rem);
-}
-.swiper-button-next::after,
-.swiper-button-prev::after {
+  transform: translateX(0.25rem);
+} /*
+.swiper-button-prev::after,
+.swiper-button-next::after {
   content: "";
 }
 .swiper-portfolio-icon {
@@ -513,6 +513,18 @@ img {
 .swiper-button-next {
   right: -0.5rem;
 }
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -2.5rem;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color);
+}
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+  outline: none;
+}
+*/
 /*==================== PROJECT IN MIND ====================*/
 
 /*==================== TESTIMONIAL ====================*/
