@@ -498,7 +498,7 @@ img {
 }
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
-} /*
+}
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: "";
@@ -513,7 +513,7 @@ img {
 .swiper-button-next {
   right: -0.5rem;
 }
-.swiper-container-horizontal > .swiper-pagination-bullets {
+.swiper-horizontal > .swiper-pagination-bullets {
   bottom: -2.5rem;
 }
 .swiper-pagination-bullet-active {
@@ -524,7 +524,7 @@ img {
 .swiper-pagination-bullet {
   outline: none;
 }
-*/
+
 /*==================== PROJECT IN MIND ====================*/
 
 /*==================== TESTIMONIAL ====================*/
