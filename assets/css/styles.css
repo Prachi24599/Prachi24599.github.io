@@ -499,6 +499,20 @@ img {
 .portfolio__button:hover .button__icon {
   transform: translate(0.25rem);
 }
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+}
+.swiper-portfolio-icon {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+.swiper-button-prev {
+  left: -0.5rem;
+}
+.swiper-button-next {
+  right: -0.5rem;
+}
 /*==================== PROJECT IN MIND ====================*/
 
 /*==================== TESTIMONIAL ====================*/
