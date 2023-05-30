@@ -159,3 +159,12 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*==================== TYPING ANIMATION ====================*/
+let typeData = new Typed(".type", {
+  strings: ["Frontend", "React JS", "Web"],
+  loop: true,
+  typeSpeed: 100,
+  backSpeed: 80,
+  backDelay: 1000,
+});
