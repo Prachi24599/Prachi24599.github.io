@@ -724,6 +724,7 @@ img {
   }
   .about__container,
   .skills__container,
+  .portfolio__content,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
