@@ -475,6 +475,11 @@ img {
 
 /*==================== SERVICES ====================*/
 
+/* Active Modal */
+.active-link {
+  color: var(--first-color);
+}
+
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
