@@ -162,7 +162,7 @@ themeButton.addEventListener("click", () => {
 
 /*==================== TYPING ANIMATION ====================*/
 let typeData = new Typed(".type", {
-  strings: ["Frontend", "React JS", "Web"],
+  strings: ["Frontend", "React JS", "Backend", "Full Stack", "Web"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
